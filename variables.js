@@ -3,6 +3,6 @@ let euro = 129.36
 let real = 24.98
 let libra = 152.33
 const comision = 1.11
-const moneda1 = new Moneda()
 
-const monedas = ["dolar", "euro", "real", "libra"]
+const monedas = ["dolar", "euro", "libra", "real"]
+const valorMoneda = [129.36, 121.05, 152.33, 24.98]

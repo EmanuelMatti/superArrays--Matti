@@ -1,29 +1,29 @@
-class Moneda {
-    constructor(nombre, valor, comision) {
-        this.nombre = nombre
-        this.valor = valor
-        this.comision = comision
 
-        this.cotizacionFinal = function () {
-            return this.valor = this.valor * this.comision
-        }
 
-    }
+let valor = "dolar"
+let valor1 = "euro"
+
+let monedita = prompt("Ingrese una moneda de cambio")
+    if(monedita !== "dolar" && monedita !== "euro"){
+        alert("Por favor ingresar: dolar o euro")
+         monedita = prompt("Ingrese moneda de cambio")
+
+} else {
+    console.log("exelente eleccion")
 }
+let numero = 0
+let monto = prompt("Ingrese monto a cambiar por la moneda elegida")
+monto = parseInt(monto)
 
-let plata = prompt("Ingrese moneda a cambiar")
-
-    if(plata != "euros") {
-        alert("Ingrese otra moneda")
-
-    } else if(plata != "libra"){
-        alert("Ingrese otra moneda") 
-
-    } else if(plata != "real"){
-        alert("Ingrese otra moneda")
-
-    } else if (plata !="dolar"){
-        alert("Ingrese otra moneda")
+    if(monto == numero) {
+        let cotizar = (div(monto / dolar * comision))
+        let resultado = 
+        alert(resultado)
+    }
+    if(monto >= 100_000 && monto <=1000) {
+        console.warn("el minimo es de 10 y el maximo de 10000")
+        monto = parseInt(prompt("Ingrese monto a cambiar por la moneda elegida"))
+    } else {
+        console.warn("monto no valido")
     }
 
-let monto = prompt("Ingrese monto a convertir en" + plata)
