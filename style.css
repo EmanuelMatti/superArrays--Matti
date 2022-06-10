@@ -30,13 +30,12 @@ h1 {
     color: white;
     font-size: 50px;
 }
-.seleccion {
+p {
     font-size: 20px;
-    padding-top: 20px;
-}
-.ingresar {
-    font-size: 20px;
-    padding-top: 20px;
+    border: 2px dashed black;
+    background-color: beige;
+    text-align: center;
+    padding: 10px 40px;
 }
 .imgOro {
     padding: 50px 20px;
