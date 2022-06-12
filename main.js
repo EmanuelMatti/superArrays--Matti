@@ -26,12 +26,7 @@ function buscarProducto(){
 
 buscarProducto()
 
-function filtrarProducto(){
-    const locales = productos.filter(producto.IVALOCAL)
-    console.log(locales)
-}
 
-filtrarProducto()
 
 function generadorAutomatico(){
     listProductos.push(new Producto("GRAVITY HOOKA", 18999, 50, 1.22))
